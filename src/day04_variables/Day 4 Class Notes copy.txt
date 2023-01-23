@@ -1,0 +1,101 @@
+6/14/2022
+
+Day 4 Variables
+
+day04_variables
+____________________________________________________________
+
+Recap
+char
+String
+primitive casting
+____________________________________________________________
+
+	What are variables?
+	How to declare variables?
+	How to assign to variables?
+	How to declare and assign variables?
+	How to reassign?
+	How to concatenate variables with characters?
+	What are primitive datatypes?
+	What are the default types?
+
+
+Variables:
+	container that holds information
+
+	datatype name = value
+
+Datatype:
+
+	primitive datatypes
+
+		Integer Numbers: (non fractional number) ex: 5
+
+			byte
+			short
+			int      <- default type in compiler
+			long
+
+		Floating Numbers: (fractional numbers with a float point ) ex: 4.99
+
+			float
+			double   <- default type in compiler
+
+		Boolean Type(true or false)
+
+			boolean
+
+	When you type a whole number in the code, it is automatically treated as an int type
+	When you type a floating number in the code, it is automatically treated as a double type
+
+	To tell the compiler we want to define a float value we use f/F after the number
+	To tell the compiler we want to define a long value we use l/L after the number
+
+		Character type:
+			char: holds a single character
+
+				a char value is given with a single quote
+
+				Ex: char first = 'a';
+
+			unicode: every character has numbers related to it       // todo
+
+				ASCII: portion of the unicode
+
+	non primitive types
+
+		String: 
+			not a primitive datatype, object type
+
+			value is multiple character, sequence of characters. Use double quotations  (( "" ))
+
+	Q: What is the difference between 'A' and "A"?
+			the single quote 'A' is a char type
+			the double quote "A" is a String type
+
+			difference is the type in the code. If we printed both, they would look the same
+			non-primitive types take more memory
+
+Note: If you want to make numbers more readable in the code, you can use underscore. The underscore does not affect the number in any way.
+
+	Ex: 1000 -> not too readable
+		1_000 -> readable
+
+		1000000 -> not too readable
+		1_000_000 -> readable
+
+Concatenation:
+
+	+ used with Strings
+
+	combine anything with the String and the result of the concatenation is String
+
+Code Execution:
+	top to bottom
+	left to right
+
+Todo
+	make sure you have github access
+	create a replit account and join the team
+	practice

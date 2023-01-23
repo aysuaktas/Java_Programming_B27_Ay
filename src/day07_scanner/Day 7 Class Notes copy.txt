@@ -1,0 +1,114 @@
+6/21/2022
+
+Day 7 Scanner
+
+day07_scanner
+____________________________________________________________
+
+Recap
+Scanner class
+____________________________________________________________
+
+Recap
+
+Unary Operators
+
+        +       (plus) positive number
+        -       (minus) negative number
+        ++      incrementing, adding 1
+        --      decrementing, subtracting 1
+
+        pre: operator comes becomes the variable
+            ++num
+        post: operator comes after the variable 
+            num++
+
+Relational Operators
+    the result is boolean value (true or false)
+
+    > greater than
+    >= greater than or equal to
+    < less than
+    <= less than or equal to
+    == equals
+    != not equals
+
+Logical Operators
+    
+    && and
+    || or
+    ! not
+
+    short circuit: 2 operators. More efficient in execution. When the code runs left to right, if the result of the boolean is known it doesn't need to continue executing
+
+        && || vs & |
+
+        double && ||
+
+            program will not keep running when the result is known
+
+        single & |
+
+            program will run all of the code left to right always, no matter if the result of the boolean is already determined
+
+Operator Precedence
+    Execution happens from top to bottom. Left to right
+
+        ! - (negative) ++ --
+        * / %
+        + - 
+        < > <= >=
+        == !=
+        &&
+        ||
+        = += -= *= /= %=
+____________________________________________________________
+
+Scanner
+
+    Scanner is a CLASS that has METHODs that allow us to type values in the console
+
+    class are java file
+
+    methods are blocks of code that are ready to use
+
+    Why are we using Scanner?   
+        avoid hard coded. Get the idea of how to use information that comes from outside of the side
+
+    How do we use Scanner?
+
+        1) import the class
+
+            import: allows us to use a file that is in a different package
+
+            - order of a java file: 
+                package -> imports -> class
+                    PIC
+
+            Scanner is in java.util
+
+            syntax: 
+
+                import packageName.className;
+                import java.util.Scanner;
+
+        2) create a Scanner object
+
+            Scanner name = new Scanner(System.in);
+
+            common names for the object: scan, scanner, input, keyboard, in
+
+        3) use/run methods from the object
+
+            syntax to call method:
+                object.method()
+
+                nextByte()
+                nextShort()
+                nextInt()   *
+                nextLong()
+                nextFloat() 
+                nextDouble() *
+                nextBoolean()
+                next()
+                nextLine() *

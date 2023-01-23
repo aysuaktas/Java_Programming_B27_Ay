@@ -1,0 +1,95 @@
+6/27/2022
+
+Day 10 If statements
+
+day10_if_statements
+____________________________________________________________
+
+multi branch if statements
+if without brackets
+____________________________________________________________
+
+practice
+	java
+	problem solving
+		try to write algorithms
+		redo class tasks -> understand why we wrote some specific code
+		try some code, run and see what is does, put comments
+
+____________________________________________________________
+
+Conditional Statements: controlling the flow of the program
+
+	single if
+
+		if(boolean){
+			// statements that get executed when the boolean is TRUE
+		}
+
+		boolean is true: code in if block runs
+		boolean is false: nothing, code resume after the if statement
+
+	if else
+
+		if(boolean){
+			// statements that get executed when the boolean is TRUE
+		} else {
+			// statements that get executed when the boolean is FALSE
+		}
+
+		boolean is true: code in if block runs
+		boolean is false: code in else block runs	
+
+	multi branch
+		whenever there is multiple conditions that are related we can use the multi branch if to handle them
+
+		execution for multi branch: the first condition is checked, if it true the first block is executed, otherwise(false) it will check the next condition.
+
+		if(boolean 1){
+			// statements that get executed when the boolean 1 is TRUE
+		} else if(boolean 2) {
+			// statements that get executed when the boolean 2 is TRUE
+		} else if(boolean 3){
+			// statements that get executed when the boolean 3 is TRUE
+		} else {
+			// statements that get executed when all the other boolean conditions were FALSE
+		}
+
+	Note: you can declare as many else if blocks are needed
+	Note: you can add else at the end, it is optional
+	Note: once a condition is true and its code block is executed the other conditions are NOT checked
+	Note: multi branch statements are used to make the code more efficient, more readable
+
+Sharing code in discord:
+
+```
+code
+```
+____________________________________________________________
+
+Office hours
+	
+	Wed 3 - 5 EST
+
+optional- review/practice
+
+____________________________________________________________
+
+if without brackets
+	
+	if statements can be created without brackets, but we will not be able to write multiple statements
+
+	If without brackets will execute only the next line after it
+
+	Take away: always use brackets
+
+____________________________________________________________
+
+Ternary
+
+	different way to write an if statement
+
+	returnValue = boolean_expression ? trueValue : falseValue;	
+
+		? if
+		: else

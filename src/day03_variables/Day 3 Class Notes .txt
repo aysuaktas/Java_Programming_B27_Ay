@@ -1,0 +1,221 @@
+6/13/2022
+
+Day 3 Variables Intro
+
+day03_variables
+____________________________________________________________
+
+Recap
+Variable declaration and assignment
+Variable naming rules
+Primitive data-types
+____________________________________________________________
+
+IntelliJ
+	
+	right click on src
+	create a new package: day03_variables
+
+if you want to rename anything
+	right click -> refactor -> rename
+
+	anytime you need a new java file 
+	right click on package
+	select new -> java class -> add a name
+		(this will make a java file .java, and inside there will be a class {})
+
+	to write code we can execute(run) create a main method
+		-> shortcut for main method: main, psvm
+
+		public static void main(String [] args){
+
+		}
+
+		Note: you will have one main method in each file
+
+	to print to the console, create a print statement
+		-> shortcut for print statement: sout	
+
+		System.out.println();
+
+difference between print vs println
+	
+	print(): only prints the console. doesn't break(go) to next line
+	println(): print to the console, and then break(go) to the next line
+
+Comments: 
+	any text that is not code. Used to make notes, reminders, help us to understand what the code does
+	comments are not executed
+	
+	single line
+		// anything on this line will be a comment
+
+	multi line
+		/*
+
+			over multiple lines you can have comments
+
+		*/
+
+	java doc
+		/**
+		*	similar to multi line, but used for java documentation of classes
+		*
+		*/
+
+
+	TODO:
+
+		- part of the comments to help you remind yourself of certain part
+		- Intellij has a separate menu to group and collect all the todos
+
+
+Escape Sequences
+	
+	backslash \
+	helps to print some characters that are also part of java syntax
+
+	\' -> '
+	\" -> "
+	\\ -> \
+	\t -> tab
+	\n -> next line
+____________________________________________________________
+
+*Naming Convention
+
+	- packages: lowercase, no spaces, can use underscores
+
+	- classes(java files): First letter is uppercase, then the rest are camel case: (Pascal Case)
+		 Pascal Case: when you want to represent multiple words together all of them start with uppercase
+			    Ex: HelloWorld
+
+	- variables: follow camel case. The first word starts with lowercase, then every word after should start with an uppercase letter
+
+	Words we want to write:
+		Today is Monday
+
+		    package: today_is_monday
+		    class: TodayIsMonday       (( PascalCase ))
+		    variable: todayIsMonday    (( camelCase  ))
+
+____________________________________________________________
+
+Variables 
+
+	container that holds data/information
+
+	benefit: store information that can be used multiple times - re-usability
+		help to reduce hard coding
+
+		hard code: directly in the code
+
+
+	declaring a variable:
+		creating a variable to be used, but no value yet
+	
+		syntax:
+			dataType variableName;	
+
+		    ex:
+			    int age;
+
+	assigning a value to a variable:
+		using the assignment operator, we can assign/store a value(information) to a variable
+
+		syntax:
+			variableName = value;
+
+		    ex:
+			    age = 10;
+
+	declaring & assigning at the same time:
+		If you know the value, you can declare and assign a variable at the same time
+
+		syntax:
+			dataType variableName = value;
+
+		    ex:
+			    int age = 10;
+
+Example:
+
+        byte age; // declared a byte variable that is called age
+        age = 10; // assigning 10 to the age variable
+        System.out.println(age); // printing the age variable, which means I will print the value of the variable
+        System.out.println("age"); // this prints the characters age, not the variable that has a number value
+        System.out.println("20"); // printing the character 2 and 0
+        System.out.println(20); // printing the int 20
+        // by default 20 is int type
+
+
+Datatypes:
+
+	In java, we have two types:
+		primitive datatype
+		non-primitive datatype (Object types)
+
+	primitive datatypes:
+
+		whole number (Ex: 10)
+			byte
+			short
+			int        <- default for compiler
+			long
+
+		floating numbers (Ex: 12.99)
+			float
+			double      <- default for compiler
+
+		boolean type: value is either true or false
+			boolean
+
+	difference between types: how much memory is taken for each variable
+
+	whole numbers are int by default, so if we need a big number that int cannot hold the program will not compile, so to fix this we will use L or l at the end of the number to tell the compiler the number is a long type, not an int type
+
+	float numbers are double by default, so if we ever want to make a float variable we will need to use F or f with the number to tell the compiler it is a float number, not a double number
+
+Tomorrow's topics: char, String, casting
+
+
+Concatenation:
+
+	we can use the + to combine variables with characters
+		-> we have used it for making messages
+
+
+Reassigning:
+	changing the value of a variable
+	update the value, the old one is lost/replaced
+
+Shortcut to print variables quickly: soutv
+
+____________________________________________________________
+
+Variable naming rules:
+
+	- create variable names that are clear for the information
+
+		int x; -> valid variable, but not clear what the information is for
+		int age;
+
+	- variable should not be a reserved word,  word used in java
+		Ex: public, int, void
+
+	- variables can have:
+
+		any letter (A - Z or a to z)
+ 
+		any number (0 - 9)
+			cannot start a variable with a number
+
+			ex:	int 1one -> not valid
+				int one1 -> valid;
+
+		only these two special characters
+			$
+			_
+
+____________________________________________________________
+

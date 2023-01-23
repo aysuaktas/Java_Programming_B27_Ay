@@ -1,0 +1,153 @@
+6/9/2022
+
+Day 1 Introduction to Programming
+____________________________________________________________
+
+Short videos for this week:
+
+	Creating Java Project
+	Main Method & Print statements
+	How Java works
+	Single line & multi line comments
+	Escape Sequences
+____________________________________________________________
+
+This program: sublime text
+
+Saim (rhymes with dime)
+
+Monday, Tuesday, Thursday, Friday
+10 am - 5 pm
+
+3 hour blocks:
+
+	Tuesday & Thursday afternoon: Soft skills
+
+	45-50 minute: class (recap/practice)
+	15 minute break
+	45-50 minute: class
+	15 minute break
+	45-50 minute: class
+
+	1 hour lunch break
+
+Discord channels
+
+	create_a_ticket: need help from support
+
+	announcement: pay attention 
+
+	general: off topic 
+
+	class_chat: live class chat
+
+	question_anwser: Adam will answer your questions during class
+
+	saim_only: Whatever I want to share
+
+____________________________________________________________
+
+cpu: central processing unit
+	what is given instruction to the computer
+
+Memory
+
+	ram
+		8GB
+		program
+
+	hard dive
+		cd, usb
+
+	byte: memory unit
+		1 GB of ram ~ 1 billion bytes
+		500 GB of hard dive ~ 500 billion bytes
+
+	1 byte is made of 8 bits(binary digit)
+
+Binary 
+
+	language that computer understand
+	0s and 1s
+
+	00000000 -> 0
+	00000001 -> 1
+	00000010 -> 2
+	00000011 -> 3
+	00000100 -> 4
+	00000101 -> 5
+	00000110 -> 6
+	00000000 -> 0
+	10000000 -> 128
+	11111111 -> 255 (8 ones)
+	100000000 -> 256 (9th digit is 1, the rest 0s)
+
+ASCII: American Standard Code for Information Interchange
+	
+	every character has a number related to it
+
+	character outside of English also have numbers: unicode
+		emojis
+
+Algorithm: step by step solution to problem
+
+pseudocode: not code, in English. steps to solve the problem. What the code should do
+
+How does the computer understand our actions?
+
+	We write high level code, using a programming language (human understandable)
+
+	Translate the code: compile or interpret
+		different languages are compiled, or interpreted, or both
+			compile: translate whole file
+			interpret: running some parts and translating 
+
+	translated version is low level (machine language)
+
+The order of the code is important
+
+Java can be used for many different functions, but our main goal is to learn how to write java code, understand it, so that we can automate testing
+
+Where do programmers write code?
+
+	any text editor
+
+		ex: sublime
+
+	IDE: integrated development environment
+
+		helpful tool to help use write code
+
+			IntelliJ is an IDE
+
+File: stores information
+
+Extensions:
+	.doc
+	.pdf
+	.exe
+	.png
+	.txt
+	.java
+
+Syntax: grammar rules for code
+
+	symbols
+		{} curly brackets
+		[] square brackets
+		() parenthesis
+		; semi colon
+
+What is the difference between JDK, JRE, JVM
+
+	JDK: java developer kit
+		allows us to write java code
+		contains the JRE and JVM, the compiler
+
+	JRE: java runtime environment
+		contains JVM
+		needed java files(libraries)
+
+	JVM: java virtual machine
+		runs the java code
+		interpret bytecode

@@ -1,0 +1,86 @@
+6/16/2022
+
+Day 5 Arithmetic Operators
+
+day05_arithmetic_operators
+____________________________________________________________
+
+Employee Task for recap 
+primitive casting
+Arithmetic Operators
+Shorthand Operators
+____________________________________________________________
+
+Next week:
+	Monday is off
+	Quiz: Tuesday - Thursday 11:59 PM EST
+
+Recap
+
+	char	
+		a single character 
+		defined with a single quote ''
+
+	String
+		a sequence of characters
+		defined with a double quote ""
+____________________________________________________________
+
+Primitive Type Casting
+
+	convert from one primitive datatype to another
+
+		[Smallest] byte -> short -> int -> long -> float -> double [Largest]
+
+		Widening Convention
+			go from a smaller datatype to bigger datatype
+			this happens automatically
+
+				Ex: int i = 10;
+					long l = i;
+
+		Narrowing Convention
+			go from a bigger type to a smaller type
+			need to manually cast
+
+			syntax:
+				smallerType varName = (smallerType) otherBiggerVariable
+
+				Ex: 	
+					long a = 50L;
+					short s = (short)a;
+
+____________________________________________________________
+
+[*] Arithmetic Operators
+
+	+ addition
+	- subtraction
+	* multiplication
+	/ division
+	% remainder/modulus
+		numerator cannot be evenly divided by the denominator, %
+
+        remainder = numerator - (denominator * whole number of the result)
+
+- When you use arithmetic operators between two different datatypes the result will be the bigger type.
+
+	Datatypes with operators: 
+		int * int -> int
+		int * double -> double
+		float * long -> float
+		short * byte -> int 
+
+- When you use datatypes like short or byte and use some arithmetic operators the values are changed to int, so the result of the operation is also int
+____________________________________________________________
+
+[*] Shorthand Operators:
+        shortened versions of the arithmetic operators
+
+        +=
+        -=
+        *=
+        /=
+        %=
+____________________________________________________________
+

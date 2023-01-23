@@ -1,0 +1,109 @@
+6/17/2022
+
+Day 6 Unary & Relational Operators
+
+day06_operators
+____________________________________________________________
+
+Recap
+Unary Operators
+Relational Operators
+Logical Operators
+Operator Precedence
+____________________________________________________________
+
+Arithmetic Operators
+
+        + addition
+        - subtraction
+        * multiplication
+        / division
+        % remainder/modulus
+
+- When you use arithmetic operators between two different datatypes the result will be the bigger type.
+
+- When you use datatypes like short or byte and use some arithmetic operators the values are changed to int, so the result of the operation is also int
+
+Shorthand Operators:
+        shortened versions of the arithmetic operators
+
+        +=
+        -=
+        *=
+        /=
+        %=
+____________________________________________________________
+
+Unary Operators
+
+        +       (plus) positive number
+        -       (minus) negative number
+        ++      incrementing, adding 1
+        --      decrementing, subtracting 1
+
+        Given int num = 0;
+
+        pre-increment: increments the value before it is used in the expression
+                ++num
+
+        pre-decrement: decrements the value before it is used in the expression
+                --num
+
+        post-increment: increments the value after it is used in the expression
+                num++
+
+        post-decrement: decrements the value after it is used in the expression
+                num--
+
+____________________________________________________________
+
+Relational Operators
+	the result is boolean value (true or false)
+
+	> greater than
+	>= greater than or equal to
+	< less than
+	<= less than or equal to
+	== equals
+	!= not equals
+
+What is the difference between = and ==
+	
+	in java we use the = as the assignement operator
+	in java we use the == to compare the values to check if they are equal
+____________________________________________________________
+
+Logical Operators
+
+	I want to do this:
+
+		5 < number < 10  --> this is not valid java syntax
+
+		in java:
+
+		number > 5
+		number < 10
+
+evaluates two boolean expressions and returns one resulting boolean value
+
+        one comparison and one comparison -> result
+
+                num > 5 AND num < 10
+        
+        AND Logic
+
+                &&
+
+                both expressions need to be true for the result to be true
+
+        OR logic
+
+                ||
+
+                at least one expressions to be true for the result to be true
+
+        NOT logic
+
+                !
+
+                opposite boolean value

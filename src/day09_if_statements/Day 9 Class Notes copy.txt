@@ -1,0 +1,63 @@
+6/24/2022
+
+Day 9 If statements
+
+day9_if_statements
+____________________________________________________________________
+
+if statements 
+if/else statements 
+____________________________________________________________________
+
+next(): read a String from the console, but only one word
+nextLine(): read a String from the console, and can have multiple words. Accepts the enter input
+
+shortcut to format:
+	
+	mac: option + command + l
+	windows: control + alt + l
+____________________________________________________________________
+
+If statements
+
+	control the flow of our program
+
+	single if
+
+		if(boolean_expression){
+
+		}
+
+		when the boolean is true: the if block will run
+		when the boolean is false: nothing, continue execution after if statement
+
+	if else
+
+		if(boolean_expression){
+			// statements for TRUE condition
+		} else {
+			// statements for FALSE condition
+		}
+
+		when the boolean is true: the if block will run
+		when the boolean is false: the else block will run
+
+____________________________________________________________________
+
+Debugging:
+
+	to find issues in the code, by checking one line at a time, or just to check what each line of code does
+
+	In IntelliJ we will be able to execute one line at a time
+
+	Steps:
+
+		1) create a breakpoint by clicking on the left bar, on the line you want to start with
+
+		2) click on the green run button in the file, and select the debug option
+
+		3) programing is running, to execute line by line click the step over button
+
+	While debugging you have the debug window, which will show extra information about your program, but there is also a console tab to show the output of your program
+____________________________________________________________________
+

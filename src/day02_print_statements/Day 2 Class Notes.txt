@@ -1,0 +1,202 @@
+6/10/2022
+
+Day 2 Intellij & Print Statements
+
+day02_print_statements
+____________________________________________________________
+
+Intellij Set Up
+Print Statements
+First Java Program
+Comments
+____________________________________________________________
+
+Recap
+	
+	Computers:
+		input -> [process/algorithm] -> output
+
+		computers understand one language: binary 0s and 1s
+
+			we are not going to write binary, so we will use high level programming languages, like java, to write human understandable code that is later translated to a machine language
+
+			java code:
+
+			code 		--> translate --> bytecode
+			First.java  --> compile --> First.class --> run in JVM
+
+	Algorithm: step by step solution to a problem 
+
+	Syntax: grammar/rules for the code
+
+____________________________________________________________
+
+IntelliJ project
+
+Create a new project: Java_Programming_B27
+
+	all projects by default are created in a folder called IdeaProjects
+
+right click src -> new -> package
+	day02_print_statements
+
+right click on the package -> new -> java class
+	HelloWorld
+
+	-> this made a file HelloWorld.java
+
+Inside of the class create a main method
+
+	class: where java code is written
+
+	public class HelloWorld {
+
+	}
+
+	main method:
+
+		public static void main(String [] args){
+
+		}
+
+	main method is how we can run java code, for now this is what we always need to run anything
+
+Our first program	
+
+	public class HelloWorld {
+
+	    public static void main(String [] args){
+
+	        System.out.println("Hello World");
+
+	    }
+
+	}
+
+ System.out.println("Hello World"); --> This is how we print to the console
+
+IntelliJ components:
+	
+	src: source folder
+
+	package: folder
+
+	class: java file
+
+	console: window at the bottom of our program. It displays the output of a program
+
+	out: folder for bytecode
+
+In java
+	
+	java does not care about space sensitivity
+	java cares about case sensitivity
+
+	to print characters use double quotations
+
+
+Task:
+	
+	Create a new class: TellMeAboutYourself in today's package
+	create main method
+	print your name
+	print your city
+	print your favorite food
+
+Shortcuts:
+
+		mac / windows
+
+copy:	command/control + c
+paste:  command/control + v
+cut:  command/control + x
+undo:  command/control + z
+select everything:  command/control + a
+
+take screenshot:
+	
+	mac: command + shift + 5
+	windows: windows key + shift + s
+
+IntelliJ
+	main method: main
+	print statement: sout
+
+	comment: highlight what the lines you want comment, then 
+		command/control + /
+
+____________________________________________________________
+
+Comments
+
+	Comments are text, no code
+	A java file expects java code, so if we want to write any message/notes we need to use comments. Comments do not get executed
+
+	Comments are helpful because they can explain some code. Helps others understand our code
+
+	Comment types:
+
+		single line comment: comment for a single line
+			//
+
+			Ex:
+				// any comment here, this is not code
+
+		multi line comment: group many lines of comments
+			/*  this is opening line for multi line
+
+
+			*/ this is closing line for multi line
+
+		java doc comment: similar to multi line, it provides additional functions, helps to generate html documentation
+			/**
+			*
+			*
+			*
+			*/
+
+		TODO: add in a comment to mark something as a todo item
+
+		intelliJ has option to show all todo items
+
+		view -> tool windows -> todo
+		or
+		bottom left todo menu
+
+print vs println
+
+	print(): prints on the same line, does NOT break the line
+	println(): print whatever you give on the current line, then it will go to the next line
+
+
+Escape sequences/characters
+
+	Q: I want you to print:
+		
+		Today is "Friday"
+
+	If you want to print certain characters that exist in java syntax we need to use the escape sequence syntax
+
+		\
+
+		note: to use escape sequences, you should be in double quotations
+
+	you will combine the syntax \ with the character you want to print/use
+
+	common uses:
+
+	code    |  output
+	\"			"
+	\\			\
+	\'			'	
+	\t          tab
+	\n			next line
+
+____________________________________________________________
+
+Todo:
+	
+	practice task I give
+	take a look at short videos for next topics
+	play around with the code we did so far
+	practice a little typing

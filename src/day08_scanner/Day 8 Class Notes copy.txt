@@ -1,0 +1,45 @@
+6/23/2022
+
+Day 8 Scanner
+
+day08_scanner
+____________________________________________________________
+
+Scanner class
+____________________________________________________________
+
+Office hours: extra session on Wednesdays optional 
+
+Hard coding: information/value is directly in the code
+Dynamic: it changes when needed, come from outside the code
+
+Scanner: has methods that allow us to type in the console. The information typed can be used in the code
+
+	method: some code that someone wrote and we can use
+
+		nextByte()
+		nextShort()
+		nextInt()
+		nextLong()
+		nextFloat()
+		nextDouble()
+		nextBoolean()
+
+		next(): get a String from the console, but only one word
+		nextLine(): get a String from the console, but can be multiple words. Accepts the enter input
+
+		Problem: using nextLine() after any other Scanner method causes the enter input to not store out data properly, so we need to add an extra nextLine() between the two parts
+
+		-> if you only have nextLine() methods there is no problem
+
+Using Scanner
+	
+	- import: to use a file outside of the package we have to import the class
+			import java.util.Scanner;
+
+	- create Scanner object: 
+		Scanner name = new Scanner(System.in);
+
+	- use the Scanner methods
+		object.method()
+
