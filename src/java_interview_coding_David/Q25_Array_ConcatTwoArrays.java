@@ -29,6 +29,21 @@ public class Q25_Array_ConcatTwoArrays {
 
 
 
+    /* Merve's solution:
+
+     public static void concatArrays(int[]arr1, int[]arr2){
+        int j = 0;
+        int[] resultArray = Arrays.copyOf(arr1,arr1.length+arr2.length);
+
+        for (int i = arr1.length; i < resultArray.length; i++) {
+            resultArray[i]=arr2[j++];
+        }
+        System.out.println(Arrays.toString(resultArray));
+    }
+     */
+
+
+
 
 
 

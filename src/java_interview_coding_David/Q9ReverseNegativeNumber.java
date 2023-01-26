@@ -23,7 +23,7 @@ public class Q9ReverseNegativeNumber {
 
         if(num < 0) {
             num = num * -1;  // 12345 ---> because otherwise, its reverse : 54321-
-            String str = String.valueOf(num);  // valueOf --> (wrapper class method) -> returns wrapper class object ((from primitive))
+            String str = String.valueOf(num);  // valueOf --> (wrapper class method) -> returns wrapper class object ((from primitive)) --> // Integer.toString(num); da olabilir belki String.valueOf(num) yerine
             String reverse = "";  // String variable ->// to use String methods --> "12345" as String -> add one by one in for loop
 
             for (int i = str.length() - 1; i >= 0; i--) {

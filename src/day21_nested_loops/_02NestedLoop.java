@@ -29,7 +29,7 @@ public class _02NestedLoop {
 
 
         // Nested loop:
-        for(int j = 0; j < 4; j++) {       // outer loop   -> j:0 j:0 --> i:0 i:0 //--> j:1 j:1 --> i:0 i:0   i:1 i:1  //--> j:2 j:2 --> i:0 i:0  i:1 i:1  i:2 i:2... // for every iteration of outer loop, inner loop starts from yhe beginning
+        for(int j = 0; j < 4; j++) {       // outer loop   -> j:0 j:0 --> i:0 i:0 //--> j:1 j:1 --> i:0 i:0   i:1 i:1  //--> j:2 j:2 --> i:0 i:0  i:1 i:1  i:2 i:2... // for every iteration of outer loop, inner loop starts from the beginning
 
             for (int i = 0; i < 3; i++) {           // inner loop
                 System.out.println("Hello World");

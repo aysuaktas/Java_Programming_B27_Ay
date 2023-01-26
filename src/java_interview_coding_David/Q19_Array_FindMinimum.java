@@ -34,4 +34,8 @@ public class Q19_Array_FindMinimum {
         return min;
     }
 }
+
+        // Daha kisa hali:
+        Arrays.sort(nums);
+        return nums[0];
          */
